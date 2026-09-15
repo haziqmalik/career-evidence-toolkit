@@ -21,21 +21,22 @@
     "com.openai": {
       "interface": {
         "displayName": "Career Evidence Toolkit",
-        "shortDescription": "Maintain career evidence and create truthful resumes",
+        "shortDescription": "Create evidence-backed resumes",
         "longDescription": "Onboard a private career workspace, maintain a verified master resume and certificate registry, and generate ATS or executive resumes for job titles and specific vacancies.",
         "developerName": "Hazique Malik",
         "category": "Productivity",
         "capabilities": [
-          "Interactive",
-          "Write"
+          "Read",
+          "Write",
+          "Interactive"
         ],
         "websiteURL": "https://github.com/haziqmalik/career-evidence-toolkit",
         "privacyPolicyURL": "https://github.com/haziqmalik/career-evidence-toolkit/blob/main/PRIVACY.md",
         "termsOfServiceURL": "https://github.com/haziqmalik/career-evidence-toolkit/blob/main/TERMS.md",
         "defaultPrompt": [
-          "Set up my private career workspace.",
-          "Synchronize my certificates and update my master resume.",
-          "Create a targeted resume for this vacancy."
+          "Set up my private career workspace, import my existing evidence, and initialize my master resume.",
+          "Sync my certificates and update my master resume using only verified or user-confirmed evidence.",
+          "Analyze this vacancy and create ATS and Executive resumes using only relevant, supported career evidence."
         ],
         "brandColor": "#E44C65",
         "composerIcon": "./assets/icon.svg",
