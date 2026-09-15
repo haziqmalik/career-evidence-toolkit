@@ -10,7 +10,13 @@
   "homepage": "https://github.com/haziqmalik/career-evidence-toolkit",
   "repository": "https://github.com/haziqmalik/career-evidence-toolkit",
   "license": "Apache-2.0",
-  "keywords": ["resume", "career", "certificates", "job-application", "agent-skills"],
+  "keywords": [
+    "career",
+    "resume",
+    "certificates",
+    "job-application",
+    "evidence"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,11 +25,16 @@
         "longDescription": "Onboard a private career workspace, maintain a verified master resume and certificate registry, and generate ATS or executive resumes for job titles and specific vacancies.",
         "developerName": "Hazique Malik",
         "category": "Productivity",
-        "capabilities": ["Interactive", "Write"],
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
         "websiteURL": "https://github.com/haziqmalik/career-evidence-toolkit",
+        "privacyPolicyURL": "https://github.com/haziqmalik/career-evidence-toolkit/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/haziqmalik/career-evidence-toolkit/blob/main/TERMS.md",
         "defaultPrompt": [
           "Set up my private career workspace.",
-          "Update my master resume with recent work.",
+          "Synchronize my certificates and update my master resume.",
           "Create a targeted resume for this vacancy."
         ],
         "brandColor": "#E44C65",
