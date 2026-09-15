@@ -1,0 +1,54 @@
+name: Feature request
+description: Suggest an improvement to the toolkit, documentation, templates, or developer experience.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature ideas are welcome. Please keep examples synthetic and avoid including personal career records or private data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What user or contributor problem would this improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Describe the workflow, behavior, or documentation change you have in mind.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Career evidence / onboarding
+        - Master resume maintenance
+        - Certificate registry
+        - Targeted resume generation
+        - ATS template
+        - Executive template
+        - Storage / provider adapters
+        - Validation / testing
+        - Documentation / Wiki / website
+        - Contributor experience
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional. Note any simpler or competing approach.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request does not require committing real personal career data to the repository.
+          required: true
