@@ -11,6 +11,7 @@ The plugin does not operate an MCP server and does not require authentication.
 ## Publisher
 
 - Developer identity: Hazique Malik
+- Public listing: https://chatgpt.com/plugins/plugins_6aa9bad6fb0c8191a2bcbaa46e45a59e
 - Website: https://github.com/haziqmalik/career-evidence-toolkit
 - Support: https://github.com/haziqmalik/career-evidence-toolkit/issues
 - Privacy: https://github.com/haziqmalik/career-evidence-toolkit/blob/main/PRIVACY.md
@@ -25,7 +26,7 @@ Career Evidence Toolkit
 
 ### Short description
 
-Turn verified career evidence into truthful, targeted resumes.
+Create evidence-backed resumes
 
 ### Long description
 
@@ -33,9 +34,9 @@ Career Evidence Toolkit helps people build a private, evidence-aware career work
 
 ## Starter prompts
 
-1. Set up my private career workspace and initialize my master resume.
-2. Synchronize my certificates and show me missing or conflicting evidence.
-3. Analyze this vacancy and create a truthful, targeted resume from my career evidence.
+1. Set up my private career workspace, import my existing evidence, and initialize my master resume.
+2. Sync my certificates and update my master resume using only verified or user-confirmed evidence.
+3. Analyze this vacancy and create ATS and Executive resumes using only relevant, supported career evidence.
 
 ## Reviewer fixture
 
