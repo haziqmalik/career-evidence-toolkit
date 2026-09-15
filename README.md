@@ -26,7 +26,7 @@ The plugin bundles six skills:
 ### Install from the repository marketplace
 
 ```bash
-codex plugin marketplace add haziqmalik/career-evidence-toolkit
+codex plugin marketplace add haziqmalik/career-evidence-toolkit --ref v0.1.0
 ```
 
 Open the Plugins directory, select the `Career Evidence Toolkit` marketplace, install the plugin, and start a new chat.
@@ -83,7 +83,7 @@ The plugin contains workflows and blank templates only. Your career workspace mu
 
 External profiles and connected storage must be accessed only with the user's permission. Read-only discovery does not authorize uploads, edits, renames, repository actions, or public sharing.
 
-See [SECURITY.md](SECURITY.md) for reporting and data-safety guidance.
+See the [Privacy Policy](PRIVACY.md), [Terms of Use](TERMS.md), [Support policy](SUPPORT.md), and [Security policy](SECURITY.md).
 
 ## Template customization
 
