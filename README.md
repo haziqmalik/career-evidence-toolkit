@@ -2,6 +2,8 @@
 
 Career Evidence Toolkit is an open-source set of agent skills for maintaining a verified career record and turning it into truthful, role-specific resumes.
 
+[Install Career Evidence Toolkit from the ChatGPT Plugins Directory](https://chatgpt.com/plugins/plugins_6aa9bad6fb0c8191a2bcbaa46e45a59e)
+
 It helps you:
 
 - create and maintain a comprehensive master resume;
@@ -23,7 +25,13 @@ The plugin bundles six skills:
 
 ## Install
 
+### Install from ChatGPT — recommended
+
+[Open Career Evidence Toolkit in the Plugins Directory](https://chatgpt.com/plugins/plugins_6aa9bad6fb0c8191a2bcbaa46e45a59e), select **Install**, and start a new chat.
+
 ### Install from the repository marketplace
+
+For development or manual installation:
 
 ```bash
 codex plugin marketplace add haziqmalik/career-evidence-toolkit --ref v0.1.0
