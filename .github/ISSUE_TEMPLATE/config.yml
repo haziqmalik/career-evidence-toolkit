@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/haziqmalik/career-evidence-toolkit/wiki
+    about: Read setup, workflow, privacy, and skill documentation before opening an issue.
+  - name: Security policy
+    url: https://github.com/haziqmalik/career-evidence-toolkit/security/policy
+    about: Please do not report security vulnerabilities in public issues.
