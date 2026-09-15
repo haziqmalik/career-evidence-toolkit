@@ -1,0 +1,6 @@
+interface:
+  display_name: Executive Technical Resume
+  short_description: Create a selective senior resume for human review
+  default_prompt: Create a resume using $executive-technical-resume.
+policy:
+  allow_implicit_invocation: true

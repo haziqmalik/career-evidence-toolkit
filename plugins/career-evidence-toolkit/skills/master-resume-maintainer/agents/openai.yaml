@@ -1,0 +1,6 @@
+interface:
+  display_name: Master Resume Maintainer
+  short_description: Initialize or update a verified comprehensive master resume
+  default_prompt: Use $master-resume-maintainer to update my master resume.
+policy:
+  allow_implicit_invocation: true

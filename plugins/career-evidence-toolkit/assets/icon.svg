@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Career Evidence Toolkit</title>
+  <rect width="128" height="128" rx="24" fill="#20232a"/>
+  <path d="M35 28h58a7 7 0 0 1 7 7v58a7 7 0 0 1-7 7H35a7 7 0 0 1-7-7V35a7 7 0 0 1 7-7Z" fill="#fff"/>
+  <path d="M43 47h42M43 63h30M43 79h37" stroke="#20232a" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="92" cy="88" r="20" fill="#e44c65"/>
+  <path d="m83 88 6 6 12-14" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

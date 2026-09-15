@@ -1,0 +1,20 @@
+{
+  "name": "career-evidence-toolkit",
+  "interface": {
+    "displayName": "Career Evidence Toolkit"
+  },
+  "plugins": [
+    {
+      "name": "career-evidence-toolkit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/career-evidence-toolkit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

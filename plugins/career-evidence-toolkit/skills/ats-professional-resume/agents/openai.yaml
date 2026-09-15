@@ -1,0 +1,6 @@
+interface:
+  display_name: ATS Professional Resume
+  short_description: Create a conventional ATS-safe resume from a retained template
+  default_prompt: Create a resume using $ats-professional-resume.
+policy:
+  allow_implicit_invocation: true

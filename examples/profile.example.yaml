@@ -1,0 +1,36 @@
+schema_version: 1
+candidate:
+  full_name: Example Candidate
+  professional_name: Example Candidate
+  location: City, Country
+  email: candidate@example.com
+  phone: null
+  profile_image: null
+
+profiles:
+  linkedin: https://www.linkedin.com/in/example
+  github: https://github.com/example
+  portfolio: null
+
+storage:
+  type: local
+  root: /absolute/private/path/CareerProfile
+
+sources:
+  previous_resumes: []
+  certificate_locations: []
+  project_evidence_locations: []
+
+preferences:
+  target_roles: []
+  target_locations: []
+  employment_types: []
+  maximum_targeted_resume_pages: 2
+  default_template: ats
+  executive_accent_color: "#E44C65"
+
+permissions:
+  review_public_profiles: false
+  use_authenticated_profiles: false
+  write_master_resume: false
+  organize_certificate_files: false

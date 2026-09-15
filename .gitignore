@@ -1,0 +1,17 @@
+# Private career data
+CareerProfile/
+career-profile/
+.career-profile/
+private/
+output/
+exports/
+applications/
+*.resume.local.*
+profile.local.yaml
+
+# Generated and local files
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/

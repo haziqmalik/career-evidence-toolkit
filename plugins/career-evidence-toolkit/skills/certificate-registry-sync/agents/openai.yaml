@@ -1,0 +1,6 @@
+interface:
+  display_name: Certificate Registry Sync
+  short_description: Audit certificate evidence and maintain a deduplicated registry
+  default_prompt: Use $certificate-registry-sync to audit my professional certificates.
+policy:
+  allow_implicit_invocation: true

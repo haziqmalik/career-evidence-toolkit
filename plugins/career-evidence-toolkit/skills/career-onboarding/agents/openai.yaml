@@ -1,0 +1,6 @@
+interface:
+  display_name: Career Onboarding
+  short_description: Set up a private career workspace and approve its sources and templates
+  default_prompt: Use $career-onboarding to set up my private career workspace.
+policy:
+  allow_implicit_invocation: true

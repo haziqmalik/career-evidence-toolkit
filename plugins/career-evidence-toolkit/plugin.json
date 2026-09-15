@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "career-evidence-toolkit",
+  "version": "0.1.0",
+  "description": "Maintain verified career evidence and generate truthful, role-specific resumes.",
+  "author": {
+    "name": "Hazique Malik",
+    "url": "https://github.com/haziqmalik"
+  },
+  "homepage": "https://github.com/haziqmalik/career-evidence-toolkit",
+  "repository": "https://github.com/haziqmalik/career-evidence-toolkit",
+  "license": "Apache-2.0",
+  "keywords": ["resume", "career", "certificates", "job-application", "agent-skills"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Career Evidence Toolkit",
+        "shortDescription": "Maintain career evidence and create truthful resumes",
+        "longDescription": "Onboard a private career workspace, maintain a verified master resume and certificate registry, and generate ATS or executive resumes for job titles and specific vacancies.",
+        "developerName": "Hazique Malik",
+        "category": "Productivity",
+        "capabilities": ["Interactive", "Write"],
+        "websiteURL": "https://github.com/haziqmalik/career-evidence-toolkit",
+        "defaultPrompt": [
+          "Set up my private career workspace.",
+          "Update my master resume with recent work.",
+          "Create a targeted resume for this vacancy."
+        ],
+        "brandColor": "#E44C65",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}
