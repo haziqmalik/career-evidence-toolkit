@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Career Evidence Toolkit — Evidence-backed resumes</title>
+    <meta
+      name="description"
+      content="An open-source ChatGPT and Codex toolkit for maintaining verified career evidence and creating truthful, targeted resumes."
+    />
+    <meta name="theme-color" content="#07111f" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Career Evidence Toolkit" />
+    <meta
+      property="og:description"
+      content="Build truthful, targeted resumes from verified career evidence."
+    />
+    <meta
+      property="og:url"
+      content="https://haziqmalik.github.io/career-evidence-toolkit/"
+    />
+    <meta name="twitter:card" content="summary" />
+    <link
+      rel="canonical"
+      href="https://haziqmalik.github.io/career-evidence-toolkit/"
+    />
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="shell nav-shell">
+        <a class="brand" href="#top" aria-label="Career Evidence Toolkit home">
+          <img src="assets/icon.svg" alt="" width="34" height="34" />
+          <span>Career Evidence Toolkit</span>
+        </a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          data-nav-toggle
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary" data-nav>
+          <a href="#toolkit">Toolkit</a>
+          <a href="#workflow">How it works</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#open-source">Open source</a>
+          <a
+            class="nav-github"
+            href="https://github.com/haziqmalik/career-evidence-toolkit"
+          >View on GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="top">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="status-dot" aria-hidden="true"></span>
+              Open source · ChatGPT + Codex
+            </div>
+            <h1>Career Evidence Toolkit</h1>
+            <p class="hero-lede">
+              Build truthful, targeted resumes from verified career evidence.
+            </p>
+            <p class="hero-detail">
+              Maintain one comprehensive career source of truth, keep certificates aligned,
+              and generate application-specific ATS or executive resumes without inventing claims.
+            </p>
+            <div class="button-row">
+              <a
+                class="button button-primary"
+                href="https://chatgpt.com/plugins/plugins_6aa9bad6fb0c8191a2bcbaa46e45a59e"
+              >
+                Install Plugin
+                <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                class="button button-secondary"
+                href="https://github.com/haziqmalik/career-evidence-toolkit"
+              >View on GitHub</a>
+              <a
+                class="text-link"
+                href="https://github.com/haziqmalik/career-evidence-toolkit"
+              >Star on GitHub <span aria-hidden="true">★</span></a>
+            </div>
+          </div>
+
+          <div class="evidence-visual" aria-label="Career evidence workflow">
+            <div class="visual-topline">
+              <span>CAREER_RECORD.yaml</span>
+              <span class="verified-label">VERIFIED</span>
+            </div>
+            <div class="evidence-stack">
+              <div class="evidence-node">
+                <span class="node-index">01</span>
+                <div>
+                  <strong>Career Evidence</strong>
+                  <span>Work · projects · credentials</span>
+                </div>
+              </div>
+              <span class="flow-arrow" aria-hidden="true">↓</span>
+              <div class="evidence-node evidence-node-active">
+                <span class="node-index">02</span>
+                <div>
+                  <strong>Master Resume</strong>
+                  <span>Comprehensive source of truth</span>
+                </div>
+              </div>
+              <span class="flow-arrow" aria-hidden="true">↓</span>
+              <div class="evidence-node">
+                <span class="node-index">03</span>
+                <div>
+                  <strong>Targeted Resume</strong>
+                  <span>Relevant evidence, selected</span>
+                </div>
+              </div>
+            </div>
+            <div class="visual-footer">
+              <span><i class="legend-dot dot-teal" aria-hidden="true"></i> Evidence first</span>
+              <span><i class="legend-dot dot-violet" aria-hidden="true"></i> Role specific</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="problem-section section" aria-labelledby="problem-title">
+        <div class="shell problem-grid">
+          <div class="section-heading">
+            <span class="section-kicker">The problem</span>
+            <h2 id="problem-title">A resume is an output, not the source.</h2>
+          </div>
+          <div class="problem-copy">
+            <p>
+              Typical AI resume workflows start by rewriting the last CV again. Over time,
+              valuable project detail disappears, versions conflict, certificates drift, and
+              unsupported claims can slip into the document.
+            </p>
+            <div class="risk-list" role="list" aria-label="Common resume workflow risks">
+              <span role="listitem">Lost project detail</span>
+              <span role="listitem">Inconsistent versions</span>
+              <span role="listitem">Certificate drift</span>
+              <span role="listitem">Unsupported claims</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="idea-section section" aria-labelledby="idea-title">
+        <div class="shell idea-panel">
+          <div>
+            <span class="section-kicker">The core idea</span>
+            <h2 id="idea-title">Evidence first.<br />Resume second.</h2>
+          </div>
+          <p>
+            The toolkit maintains a comprehensive, evidence-aware career record. When a role
+            appears, it analyzes the target, selects the most relevant supported experience,
+            projects, skills, and credentials, then generates the appropriate resume output.
+          </p>
+        </div>
+      </section>
+
+      <section class="toolkit-section section" id="toolkit" aria-labelledby="toolkit-title">
+        <div class="shell">
+          <div class="section-intro">
+            <div>
+              <span class="section-kicker">Six focused skills</span>
+              <h2 id="toolkit-title">What the toolkit includes</h2>
+            </div>
+            <p>One connected workflow for maintaining career evidence and producing resumes.</p>
+          </div>
+
+          <div class="skill-grid">
+            <article class="skill-card">
+              <span class="skill-number">01</span>
+              <h3>Career Onboarding</h3>
+              <p>Configures private storage, approved evidence sources, permissions, and resume templates.</p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">02</span>
+              <h3>Master Resume Maintainer</h3>
+              <p>Initializes or updates the comprehensive career source of truth from approved evidence.</p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">03</span>
+              <h3>Certificate Registry Sync</h3>
+              <p>Audits professional certificate evidence and maintains a deduplicated credential registry.</p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">04</span>
+              <h3>Targeted Resume Generator</h3>
+              <p>Analyzes a job title or vacancy and selects relevant evidence without inventing claims.</p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">05</span>
+              <h3>ATS Professional Resume</h3>
+              <p>Produces a conventional, single-column resume designed for ATS-safe applications.</p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-number">06</span>
+              <h3>Executive Technical Resume</h3>
+              <p>Produces a selective, human-facing resume for senior technical and leadership positioning.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="workflow-section section" id="workflow" aria-labelledby="workflow-title">
+        <div class="shell">
+          <div class="section-intro workflow-intro">
+            <div>
+              <span class="section-kicker">A durable workflow</span>
+              <h2 id="workflow-title">How it works</h2>
+            </div>
+            <p>Your evidence is maintained once, then selected deliberately for each application.</p>
+          </div>
+          <ol class="workflow-list">
+            <li><span>01</span><strong>Onboard</strong></li>
+            <li><span>02</span><strong>Collect evidence</strong></li>
+            <li><span>03</span><strong>Maintain source</strong></li>
+            <li><span>04</span><strong>Analyze role</strong></li>
+            <li><span>05</span><strong>Select evidence</strong></li>
+            <li><span>06</span><strong>Generate resume</strong></li>
+            <li><span>07</span><strong>Validate output</strong></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="outputs-section section" aria-labelledby="outputs-title">
+        <div class="shell">
+          <div class="section-intro">
+            <div>
+              <span class="section-kicker">Two resume outputs</span>
+              <h2 id="outputs-title">Choose the right presentation</h2>
+            </div>
+            <p>Both formats draw from the same career evidence while serving different readers.</p>
+          </div>
+          <div class="output-grid">
+            <article class="output-card output-ats">
+              <div class="output-label">ATS / APPLICATION</div>
+              <h3>ATS Professional Resume</h3>
+              <p>A conventional application document optimized for clear parsing and focused relevance.</p>
+              <ul>
+                <li>Conventional single-column structure</li>
+                <li>ATS-safe presentation</li>
+                <li>Application-focused evidence selection</li>
+              </ul>
+            </article>
+            <article class="output-card output-executive">
+              <div class="output-label">SENIOR / HUMAN-FACING</div>
+              <h3>Executive Technical Resume</h3>
+              <p>A selective editorial document for senior technical and leadership conversations.</p>
+              <ul>
+                <li>Selective, human-facing structure</li>
+                <li>Senior and leadership orientation</li>
+                <li>Emphasis on the strongest relevant evidence</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="prompts-section section" aria-labelledby="prompts-title">
+        <div class="shell prompts-grid">
+          <div class="prompts-copy">
+            <span class="section-kicker">Use natural requests</span>
+            <h2 id="prompts-title">Start with the work you need done.</h2>
+            <p>
+              The toolkit routes each request to the relevant workflow while keeping the master
+              career record authoritative.
+            </p>
+          </div>
+          <div class="prompt-list">
+            <article class="prompt-card">
+              <code>“Create an ATS resume for a Senior Backend Engineer role.”</code>
+              <button type="button" data-copy-prompt aria-label="Copy ATS resume example">Copy</button>
+            </article>
+            <article class="prompt-card">
+              <code>“Analyze this vacancy and create both resume versions using only verified evidence: [job description]”</code>
+              <button type="button" data-copy-prompt aria-label="Copy vacancy analysis example">Copy</button>
+            </article>
+            <article class="prompt-card">
+              <code>“Update my master resume with my recent completed work.”</code>
+              <button type="button" data-copy-prompt aria-label="Copy master resume update example">Copy</button>
+            </article>
+            <article class="prompt-card">
+              <code>“Synchronize my professional certificates and show me discrepancies.”</code>
+              <button type="button" data-copy-prompt aria-label="Copy certificate sync example">Copy</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="privacy-section section" id="privacy" aria-labelledby="privacy-title">
+        <div class="shell privacy-panel">
+          <div class="privacy-heading">
+            <span class="section-kicker">Privacy by design</span>
+            <h2 id="privacy-title">Your career data stays out of the public repository.</h2>
+            <p>
+              The repository contains workflows and blank templates. Your private workspace lives
+              somewhere you choose and authorize.
+            </p>
+          </div>
+          <div class="privacy-details">
+            <ul>
+              <li>Resumes, certificates, contact details, profile photos, application records, and generated files stay outside the plugin repository.</li>
+              <li>The toolkit does not need passwords, API keys, access tokens, or similar secrets.</li>
+              <li>External profiles and connected storage are accessed only with user permission.</li>
+            </ul>
+            <nav class="policy-links" aria-label="Project policies">
+              <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/PRIVACY.md">Privacy</a>
+              <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/SECURITY.md">Security</a>
+              <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/TERMS.md">Terms</a>
+              <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/SUPPORT.md">Support</a>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="open-source-section section" id="open-source" aria-labelledby="open-source-title">
+        <div class="shell open-source-grid">
+          <div>
+            <span class="license-mark" aria-hidden="true">{ }</span>
+          </div>
+          <div>
+            <span class="section-kicker">Apache-2.0</span>
+            <h2 id="open-source-title">Open source by design.</h2>
+            <p>
+              Inspect the workflows, fork the repository, adapt the toolkit, or contribute an
+              improvement. User-provided career data and generated resumes remain the user’s content.
+            </p>
+            <a
+              class="button button-secondary"
+              href="https://github.com/haziqmalik/career-evidence-toolkit"
+            >View source on GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta section" aria-labelledby="final-cta-title">
+        <div class="shell final-cta-panel">
+          <div>
+            <span class="section-kicker">Keep the record. Change the application.</span>
+            <h2 id="final-cta-title">Your career history should not have to be rebuilt for every application.</h2>
+          </div>
+          <div class="button-row">
+            <a
+              class="button button-primary"
+              href="https://chatgpt.com/plugins/plugins_6aa9bad6fb0c8191a2bcbaa46e45a59e"
+            >Install Career Evidence Toolkit <span aria-hidden="true">↗</span></a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/haziqmalik/career-evidence-toolkit"
+            >Star on GitHub <span aria-hidden="true">★</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#top">
+            <img src="assets/icon.svg" alt="" width="30" height="30" />
+            <span>Career Evidence Toolkit</span>
+          </a>
+          <p>Built by <a href="https://github.com/haziqmalik">Hazique Malik</a>.</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="https://github.com/haziqmalik/career-evidence-toolkit">GitHub</a>
+          <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/PRIVACY.md">Privacy</a>
+          <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/TERMS.md">Terms</a>
+          <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/SECURITY.md">Security</a>
+          <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/SUPPORT.md">Support</a>
+          <a href="https://github.com/haziqmalik/career-evidence-toolkit/blob/main/LICENSE">Apache-2.0</a>
+        </nav>
+      </div>
+      <div class="shell footer-bottom">
+        <span>Evidence-backed resumes.</span>
+        <span>© <span data-year>2026</span> Career Evidence Toolkit</span>
+      </div>
+    </footer>
+  </body>
+</html>
